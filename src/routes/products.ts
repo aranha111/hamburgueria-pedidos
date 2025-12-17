@@ -1,5 +1,5 @@
 import { FastifyInstance } from "fastify";
-import { Product } from "../models/product.model";
+import { Product } from "../models/product.model.js";
 import { z } from "zod";
 
 export async function productsRoutes(app: FastifyInstance) {

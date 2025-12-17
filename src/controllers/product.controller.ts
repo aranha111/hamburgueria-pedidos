@@ -1,6 +1,7 @@
 import { FastifyReply, FastifyRequest } from "fastify";
 import { z } from "zod";
-import { productService } from "../services/product.service";
+import { productService } from "../services/product.service.js";
+
 
 export const productController = {
   async list(req: FastifyRequest, reply: FastifyReply) {

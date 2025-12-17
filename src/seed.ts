@@ -1,6 +1,6 @@
 import "dotenv/config";
 import mongoose from "mongoose";
-import  { Order } from "./models/order.model";
+import  { Order } from "./models/order.model.js";
 
 async function seed() {
   try {

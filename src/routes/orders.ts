@@ -1,5 +1,5 @@
 import { FastifyInstance } from "fastify";
-import { Order } from "../models/order.model";
+import { Order } from "../models/order.model.js";
 import { z } from "zod";
 
 export async function ordersRoutes(app: FastifyInstance) {
