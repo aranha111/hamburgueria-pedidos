@@ -1,6 +1,6 @@
 import Fastify from "fastify";
 import cors from "@fastify/cors";
-import { ordersRoutes } from "./routes/orders";
+import { ordersRoutes } from "./routes/orders.js";
 import { productsRoutes } from "./routes/products";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
