@@ -1,25 +1,23 @@
 {
   "name": "backend-hamburgueria",
   "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "start": "node ./dist/server.js",
-    "build": "tsc"
+    "dev": "tsx src/server.ts",
+    "start": "tsx src/server.ts"
   },
   "dependencies": {
     "@fastify/cors": "^9.0.1",
-    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1",
     "fastify": "^4.23.0",
     "mongoose": "^7.8.8",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "@types/node": "^24.10.3",
-    "ts-node": "^10.9.2",
+    "@types/node": "^18.19.0",
     "tsx": "^3.12.7",
     "typescript": "^5.9.3"
   }
